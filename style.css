@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@300;400&display=swap');
 .container{
     display: flex;
     flex-direction: column;
@@ -7,4 +6,80 @@
     align-items: center;
     align-content: center;
     margin-top: 100px;
+}
+.title{
+    text-align: center;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid grey;
+}
+.nav{
+    margin: 2px 80px;
+    margin-bottom: 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.borderB{
+    border-bottom: 5px solid #2F80ED;
+    
+}
+.input{
+    display: flex;
+    flex-direction: row;
+}
+#input{ 
+    border: none;
+    appearance: none;
+    background: #f2f2f2;
+    width: 476px;
+    height: 56px;
+    border-radius: 12px;
+    margin-top: 15px;
+    margin-right: 25px;
+    padding-left: 12px;
+}
+.addTask{
+    width: 80px;
+    height: 20px;
+    border-radius: 12px;
+    background: #2F80ED;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+#add{
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 2px;
+    height: 1.5rem;
+}
+.tasks{
+   align-self: flex-start;
+   margin-left: 322px;
+
+}
+.task{
+    display: flex;
+    flex-direction: row;
+}
+#checkbox{
+    width: 20px;
+    height: 20px;
+}
+.indiTask{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.check{
+    text-decoration: line-through;
 }
